@@ -1,0 +1,11 @@
+[package]
+name = "kubotakeisuke"
+version = "0.1.0"
+authors = ["Keisuke Kubota <Kk.bb1130@outlook.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proconio = "0.4.3"
+fenwick-tree = "0.1.0"
