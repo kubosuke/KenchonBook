@@ -69,18 +69,16 @@ fn lsb(i: usize) -> usize {
 }
 
 fn main() {
-    let v = vec![5,1,2,3,4];
+    let v = vec![2,1,5,4,3];
+
     let mut b = Fenwick::new(v.len()+1);
     let mut ans = 0;
     let mut i = 0;
     while i < v.len() {
-        ans += i - b.sum(v[i]) as usize;
+        ans += (i+1) - b.sum(v[i])  as usize - 1;
         b.add(v[i], 1);
         i += 1;
     }
-    // print Fenwick tree
-    println!("{:?}", b);
 
-    // print Inversion number
-    println!("{}", ans);
+    assert_eq!(4, ans);
 }

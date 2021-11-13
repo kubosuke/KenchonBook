@@ -1,1 +1,0 @@
-/Users/kubota.keisuke/Documents/GitHub/ca-kubota-dp-4065128447/chapter4/target/debug/chapter4: /Users/kubota.keisuke/Documents/GitHub/ca-kubota-dp-4065128447/chapter4/src/main.rs /Users/kubota.keisuke/Documents/GitHub/ca-kubota-dp-4065128447/chapter4/src/partial_sum.rs
