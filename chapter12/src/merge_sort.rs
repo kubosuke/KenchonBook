@@ -6,6 +6,7 @@ fn main() {
     assert_eq!(v2, vec![2, 3, 5, 6, 9, 21, 41, 86, 154, 564]);
 }
 
+// left, right: 0-index of v
 fn merge_sort(v: &mut Vec<i32>, left: usize, right: usize) {
     if right > left {
         let mid = (left + right)/2;
