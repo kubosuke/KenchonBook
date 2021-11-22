@@ -3,10 +3,10 @@ const MAX: usize = 100000;
 
 fn main() {
     let mut v = vec![3,6,2,154,5,41,564,21,86,9];
-    assert_eq!(bucket_sort(&mut v), vec![2, 3, 5, 6, 9, 21, 41, 86, 154, 564]);
+    assert_eq!(counting_sort(&mut v), vec![2, 3, 5, 6, 9, 21, 41, 86, 154, 564]);
 }
 
-fn bucket_sort(v: &mut Vec<i32>) -> Vec<i32> {
+fn counting_sort(v: &mut Vec<i32>) -> Vec<i32> {
     let n = v.len();
 
     // count each elements
