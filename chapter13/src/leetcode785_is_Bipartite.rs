@@ -1,4 +1,4 @@
-//
+// https://leetcode.com/problems/is-graph-bipartite/
 
 fn main() {
     let edges: Vec<Vec<i32>> = vec![vec![1,2,3],vec![0,2],vec![0,1,3],vec![0,2]];
